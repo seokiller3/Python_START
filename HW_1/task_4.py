@@ -5,7 +5,7 @@
 
 num = int(input('Введите номер четверти: '))
 
-if 5>num >0:
+if 5 > num > 0:
     if num == 1:
         print('x>0, y>0')
     elif num == 2:
