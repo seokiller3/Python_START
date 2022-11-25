@@ -6,7 +6,8 @@
 x_coord = int(input('Введите координату x: '))
 y_coord = int(input('Введите координату y: '))
 
-if x_coord > 0 and y_coord > 0:
+if x_coord > 0 < y_coord:
+
     print('I Четверть')
 if x_coord < 0 and y_coord > 0:
     print('II Четверть')
