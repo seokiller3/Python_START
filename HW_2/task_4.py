@@ -18,5 +18,5 @@ n = int(input('Введите число N: '))
 numbers = list(n)
 print(numbers)
 x = open('D:\Учеба\Python\Python_START\HW_2\indexes.txt', 'r')
-result = numbers[int(x.readline())] * numbers[int(x.readline(1))]
+result = numbers[int(x.readline())] * numbers[int(x.readline(100))]
 print(result)
