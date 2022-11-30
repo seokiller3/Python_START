@@ -22,7 +22,7 @@
 
 from itertools import accumulate
 import operator
-
+#from math import factorial
 N = int(input('Введите число: '))
 
 
@@ -31,3 +31,5 @@ def get_factorial(N):
 
 
 print(get_factorial(N))
+
+#print([factorial(N) for N in range(1, N+1)])
