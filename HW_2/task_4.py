@@ -11,7 +11,7 @@ my_list = [randint(-num, num) for _ in range(num)]
 print(my_list)
 
 result = 1
-with open('D:\Учеба\Python\Python_START\HW_2\indexes.txt', 'r') as file:
+with open('indexes.txt', 'r') as file:
     for line in file:
         index = int(line)
         if num > index >= -num:
