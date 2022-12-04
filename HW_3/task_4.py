@@ -11,7 +11,8 @@
 
 num = int(input('Введите целое число: '))
 double_num = ''
-while num > 0:
+while num:
+
     double_elem = str(num % 2) + double_elem
     num //= 2
     #double_num += str(double_elem)
