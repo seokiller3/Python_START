@@ -18,7 +18,8 @@ print(my_list)
 new_list = []
 for i in range((n + 1) // 2):
 
-    new_list.append(my_list[i] * my_list[-i-1])
+    new_list.append(my_list[i] * my_list[-i - 1])
+
 print(new_list)
 
 
