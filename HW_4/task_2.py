@@ -13,5 +13,5 @@ while len(tmp) < data:
     x = randint(1, 101)
     if x not in tmp:
         tmp.append(x)
- 
+
 print(*tmp)

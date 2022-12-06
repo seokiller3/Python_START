@@ -86,19 +86,19 @@ if __name__ == '__main__':
 
 #from sympy.abc import x
 #from sympy import *
-#def sum_poly(*args):
+# def sum_poly(*args):
     #res = []
-    #for arg in args:
-        #print(arg)
-        #s= arg.replace('x', ' * x').replace('x^', 'x ** ').replace(' = 0, '')
-        #print(s)
+    # for arg in args:
+        # print(arg)
+        # s= arg.replace('x', ' * x').replace('x^', 'x ** ').replace(' = 0, '')
+        # print(s)
         #res.append(collect(s, x))
-    #return str(sum(res)).replace('*x, 'x').replace('**', '^') + ' = 0'
+    # return str(sum(res)).replace('*x, 'x').replace('**', '^') + ' = 0'
 
 
-#if __name__ = '__main__':
-    #results = [
+# if __name__ = '__main__':
+    # results = [
     # x^5 + 15x^3 + 7x + 1 = 0
     # 10x^5 + 2x^4 + 11x^3 + 9x^2 + 3x = 0
     # ]
-    #print(sum_poly(*results))
+    # print(sum_poly(*results))

@@ -13,7 +13,7 @@ from os import path, mkdir, chdir
 
 def create_polynom(list_k):
     i = len(list_k) - 1
-    new_polynom = ""  
+    new_polynom = ""
     plus = False
     for num in list_k:
         if num:
