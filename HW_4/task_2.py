@@ -5,13 +5,10 @@
 # [1, 1, 2, 3, 3, 4, 5, 5, 6, 7, 7, 8, 9, 9]
 # [2, 4, 6, 8]
 
-from random import randint
-
-data = int(input('Введите размерность списка: '))
-tmp = []
-while len(tmp) < data:
-    x = randint(1, 101)
-    if x not in tmp:
-        tmp.append(x)
-
-print(*tmp)
+my_list = [1, 1, 2, 3, 3, 4, 5, 5, 6, 7, 7, 8, 9, 9]
+new_list = []
+for el in my_list:
+    if my_list.count(el) == 1:
+        new_list.append(el)
+print(my_list)
+print(new_list)
