@@ -1,6 +1,6 @@
 import unittest
 
-from task_1 import < 'Ваша функция' > as target  # Функция должна принимать выражение в виде строки
+from task_1 import calculator as target  # Функция должна принимать выражение в виде строки
 
 
 # Класс с тестами
