@@ -1,0 +1,17 @@
+{
+  "last_id": {
+    "id": 5
+  },
+  "items": [
+    {
+      "first_name": "Артём",
+      "last_name": "Карташев",
+      "phone_number": [
+        "89992324865"
+      ],
+      "birthday": "07.08.1999",
+      "workplace": "спб",
+      "id": 5
+    }
+  ]
+}
