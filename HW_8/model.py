@@ -5,7 +5,7 @@ from logger import log
 @log
 def connect():
     """Подключение к БД"""
-    conn = sqlite3.connect("db_wh_8.db")
+    conn = sqlite3.connect("database_hw_8.db")
     cursor = conn.cursor()
 
     return conn, cursor
