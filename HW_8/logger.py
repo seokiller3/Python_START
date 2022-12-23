@@ -9,4 +9,4 @@ def log(func):
 
             return func(*args)
 
-        return wrapper
+    return wrapper
