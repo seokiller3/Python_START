@@ -91,7 +91,7 @@ class Chat:
     id_rec = None
     search_last_name = False
     res_polynom = None
-    operation = ("Телефонный_справочник", "Сложение_многочленов")
+    operation = "Телефонный_справочник", "Сложение_многочленов"
     menu_phone_book = ("Показать_записи", "Добавить_запись", "Редактировать_запись", "Поиск_по_фамилии", "Выход")
     menu_polynom = ("Выход",)
     card = {}
